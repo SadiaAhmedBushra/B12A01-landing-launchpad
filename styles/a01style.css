@@ -24,6 +24,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 34px;
+  font-weight: 850;
   color: #4E47FF;
 }
 
@@ -41,6 +42,12 @@
     border-radius: 10px;
     color: white;
     border: none;
+}
+
+.btn-primary:hover{
+    background-color: #83b3f2;
+    color: #000;
+    font-size: 20px;
 }
 
 /* shared styles  */
@@ -62,6 +69,10 @@ nav{
     padding-top: 50px;
     padding-right: 150px;
     padding-left: 150px; 
+}
+
+nav h1{
+    font-weight: 800;
 }
 
 header a{
@@ -143,7 +154,7 @@ header a{
 /* activity section */
 
 .activity-parent{
-
+    background-color:  #f6f8ff;
     margin: 150px auto;
     max-width: 1140px;
     display: flex;
@@ -215,8 +226,9 @@ main h1{
 .pu{
     margin-top: 0px;
     padding-top: 0px;
+    
     font-size: 20px;
-    color: black;
+    color:rgba(0, 0, 0, 0.5);
 }
 
 .all-pus{
@@ -230,6 +242,9 @@ main h1{
 .ready{
     margin: 150px auto;
     max-width: 1140px;
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
 
     display: flex;
     flex-direction: column;
@@ -272,6 +287,7 @@ main h1{
 .newsletter{
     margin: 150px auto;
     max-width: 1140px;
+    padding-bottom: 100px;
 
     display: flex;
     justify-content: space-between;
@@ -311,7 +327,7 @@ main h1{
 
 .input-class{
     width: 497px;
-    height: 50px;
+    height: 30px;
     /* padding: 32px 20px; */
     gap: 10px;
     background-color: white;
@@ -330,7 +346,7 @@ main h1{
 }
 
 .textarea-class{
-    height: 135px;
+    height: 120px;
     width: 497px;
 
     gap: 10px;
@@ -404,12 +420,13 @@ main h1{
 .review-description{
     color: rgba(30, 30, 30, 1);
     font-size: 14px;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
 }
 
 .parent2{
     display: flex;
-    /* justify-content: left; */
+    flex-direction: row;
+    justify-content:flex-start;
     align-items: center;
 }
 
@@ -430,6 +447,7 @@ main h1{
     width: 40px;
     border-radius: 50%;
     margin-right: 12px;
+    margin-top: 30px;
 }
 
 /* footer styles */
@@ -443,7 +461,6 @@ footer{
 }
 .footer-logo{
     font-size: 100px;
-    font-weight: bolder;
 }
 
 .footer-description{
